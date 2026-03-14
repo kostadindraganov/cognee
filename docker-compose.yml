@@ -65,7 +65,7 @@ services:
     extra_hosts:
       - "host.docker.internal:host-gateway"
     ports:
-      - "8000:8000" # MCP port
+      - "8008:8008" # MCP port
       - "5678:5678" # MCP debugger port
     deploy:
       resources:
